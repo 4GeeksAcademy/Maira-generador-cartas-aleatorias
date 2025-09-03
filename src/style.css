@@ -1,5 +1,27 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+body {
+    background-color: green;
+}
 
-body{
-    background: white;
+.carta {
+	top: 0em;
+	left: 1em;
+	padding-top: 5px;
+	width: 220px;
+    height: 320px;
+	background: white;
+	font-size: 60px;
+	text-align: center;
+    justify-content: center;	
+    border: 2px solid black;
+	border-radius: 3px;
+	
+}
+
+.voltear {
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+}
+
+.arriba {
+	padding: 1rem;
 }
